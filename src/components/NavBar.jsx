@@ -15,7 +15,7 @@ const scrollTo = (ele) => {
 
 export default function NavBar() {
   return (
-    <Navbar className="navbar" collapseOnSelect expand="lg">
+    <Navbar className="navbar px-2" collapseOnSelect expand="lg">
       <img
         src="https://res.cloudinary.com/dw8damfxa/image/upload/v1611387760/ABW/LOGOS/ABW_logo_e2szkq.svg"
         alt="abw-logo"

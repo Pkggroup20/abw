@@ -23,7 +23,7 @@ export default function NavBar() {
       />
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="ml-auto navbar-nav">
+        <Nav className="ms-auto navbar-nav">
           <button
             onClick={() => scrollTo("menu")}
             className="nav-link"

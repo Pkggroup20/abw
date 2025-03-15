@@ -3,6 +3,8 @@ import React from "react";
 import { Navbar, Nav, Button } from "react-bootstrap";
 import smoothscroll from "smoothscroll-polyfill";
 
+import abw from "../assets/abw-logo.png";
+
 smoothscroll.polyfill();
 
 const scrollTo = (ele) => {
@@ -17,7 +19,7 @@ export default function NavBar() {
   return (
     <Navbar className="navbar px-2" collapseOnSelect expand="lg">
       <img
-        src="https://res.cloudinary.com/dw8damfxa/image/upload/v1611387760/ABW/LOGOS/ABW_logo_e2szkq.svg"
+        src={abw}
         alt="abw-logo"
         style={{ width: "182px", height: "70px" }}
       />

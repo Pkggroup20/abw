@@ -1,4 +1,17 @@
 import React from "react";
+import grubhub from "../../../assets/grubhub.jpg";
+import ubereats from "../../../assets/ubereats.jpg";
+import doordash from "../../../assets/doordash.webp";
+import ezcater from "../../../assets/ezcater.png";
+
+import menu1 from "../../../assets/menu/menu1.jpg";
+import menu2 from "../../../assets/menu/menu2.webp";
+import menu3 from "../../../assets/menu/menu3.jpg";
+import menu4 from "../../../assets/menu/menu4.webp";
+import menu5 from "../../../assets/menu/menu5.png";
+import menu6 from "../../../assets/menu/menu6.jpg";
+import menu7 from "../../../assets/menu/menu7.jpg";
+import menu8 from "../../../assets/menu/menu8.png";
 
 const Menu = () => {
   return (
@@ -16,7 +29,7 @@ const Menu = () => {
           all of our offerings before placing your order.
         </p>
       </div>
-      <div className="feature-icons">
+      {/* <div className="feature-icons">
         <div className="box">
           <img
             src="https://res.cloudinary.com/dw8damfxa/image/upload/v1611029717/ABW/MENU/wings.jpg"
@@ -54,6 +67,96 @@ const Menu = () => {
             alt="pasta"
           />
         </div>
+      </div> */}
+      <div className="feature-icons">
+        <div className="box">
+          <img
+            src={menu1}
+            alt="wings"
+            height={300}
+            width={500}
+            style={{
+              borderRadius: "16px",
+            }}
+          />
+        </div>
+        <div className="box">
+          <img
+            src={menu2}
+            alt="burger"
+            height={300}
+            width={500}
+            style={{
+              borderRadius: "16px",
+            }}
+          />
+        </div>
+        <div className="box">
+          <img
+            src={menu3}
+            alt="wrap"
+            height={300}
+            width={500}
+            style={{
+              borderRadius: "16px",
+            }}
+          />
+        </div>
+        <div className="box">
+          <img
+            src={menu4}
+            alt="fish & chips"
+            height={300}
+            width={500}
+            style={{
+              borderRadius: "16px",
+            }}
+          />
+        </div>
+        <div className="box">
+          <img
+            src={menu5}
+            alt="sandwich"
+            height={300}
+            width={500}
+            style={{
+              borderRadius: "16px",
+            }}
+          />
+        </div>
+        <div className="box">
+          <img
+            src={menu6}
+            alt="pasta"
+            height={300}
+            width={500}
+            style={{
+              borderRadius: "16px",
+            }}
+          />
+        </div>
+        <div className="box">
+          <img
+            src={menu7}
+            alt="cake"
+            height={300}
+            width={500}
+            style={{
+              borderRadius: "16px",
+            }}
+          />
+        </div>
+        <div className="box">
+          <img
+            src={menu8}
+            alt="alfredo"
+            height={300}
+            width={500}
+            style={{
+              borderRadius: "16px",
+            }}
+          />
+        </div>
       </div>
       <div className="features-container">
         <h3
@@ -87,9 +190,12 @@ const Menu = () => {
               target="_blank"
             >
               <img
-                src="https://res.cloudinary.com/dw8damfxa/image/upload/v1611387760/ABW/LOGOS/Grubhub_ucvxem.svg"
+                src={grubhub}
                 alt="grubhub-logo"
                 className="md-link-icon"
+                height={100}
+                width={200}
+                style={{ borderRadius: "10px" }}
               />
             </a>
           </div>
@@ -101,23 +207,29 @@ const Menu = () => {
               target="_blank"
             >
               <img
-                src="https://res.cloudinary.com/dw8damfxa/image/upload/v1611387761/ABW/LOGOS/Uber-Eats_kryvb5.svg"
-                alt="uberEats-logo"
+                src={ubereats}
+                alt="ubereats-logo"
                 className="md-link-icon"
+                height={100}
+                width={200}
+                style={{ borderRadius: "10px" }}
               />
             </a>
           </div>
           <div className="feature-link-icon-box">
             <a
               className=""
-              href="https://www.doordash.com/business/691122/?utm_source=partner-link&utm_medium=website&utm_campaign=691122&utm_content=red-l"
+              href="https://www.doordash.com/store/america's-best-wings-silver-spring-1452081/23271549/?cursor=eyJzZWFyY2hfaXRlbV9jYXJvdXNlbF9jdXJzb3IiOnsicXVlcnkiOiJhbWVyaWNhcyBiZXN0IHdpbmdzIHdoZWF0b24iLCJpdGVtX2lkcyI6W10sInNlYXJjaF90ZXJtIjoiYW1lcmljYSBiZXN0IHdpbmdzIHdoZWF0IG9uIiwidmVydGljYWxfaWQiOi05OTksInZlcnRpY2FsX25hbWUiOiJhbGwifX0=&pickup=false"
               rel="noreferrer"
               target="_blank"
             >
               <img
-                src="https://res.cloudinary.com/dw8damfxa/image/upload/v1611387759/ABW/LOGOS/Doordash_yfdell.svg"
+                src={doordash}
                 alt="doordash-logo"
                 className="md-link-icon"
+                height={100}
+                width={200}
+                style={{ borderRadius: "10px" }}
               />
             </a>
           </div>
@@ -129,9 +241,12 @@ const Menu = () => {
               target="_blank"
             >
               <img
-                src="https://res.cloudinary.com/dw8damfxa/image/upload/v1667634151/ABW/LOGOS/ezCater_Logo_upvoq1.jpg"
+                src={ezcater}
                 alt="ezcater-logo"
                 className="md-link-icon"
+                height={100}
+                width={200}
+                style={{ borderRadius: "10px" }}
               />
             </a>
           </div>

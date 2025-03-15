@@ -1,5 +1,9 @@
 import React from "react";
 import Modal from "../../../components/Modal";
+import grubhub from "../../../assets/grubhub.jpg";
+import ubereats from "../../../assets/ubereats.jpg";
+import doordash from "../../../assets/doordash.webp";
+import ezcater from "../../../assets/ezcater.png";
 
 const ModalText = () => {
   return (
@@ -28,9 +32,12 @@ const ModalText = () => {
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/dw8damfxa/image/upload/v1611387760/ABW/LOGOS/Grubhub_ucvxem.svg"
+              src={grubhub}
               alt="grubhub-logo"
               className="md-link-icon"
+              height={100}
+              width={200}
+              style={{ borderRadius: "10px" }}
             />
           </a>
         </div>
@@ -42,23 +49,46 @@ const ModalText = () => {
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/dw8damfxa/image/upload/v1611387761/ABW/LOGOS/Uber-Eats_kryvb5.svg"
-              alt="uberEats-logo"
+              src={ubereats}
+              alt="ubereats-logo"
               className="md-link-icon"
+              height={100}
+              width={200}
+              style={{ borderRadius: "10px" }}
             />
           </a>
         </div>
         <div className="md-link-box">
           <a
             className=""
-            href="https://www.doordash.com/business/691122/?utm_source=partner-link&utm_medium=website&utm_campaign=691122&utm_content=red-l"
+            href="https://www.doordash.com/store/america's-best-wings-silver-spring-1452081/23271549/?cursor=eyJzZWFyY2hfaXRlbV9jYXJvdXNlbF9jdXJzb3IiOnsicXVlcnkiOiJhbWVyaWNhcyBiZXN0IHdpbmdzIHdoZWF0b24iLCJpdGVtX2lkcyI6W10sInNlYXJjaF90ZXJtIjoiYW1lcmljYSBiZXN0IHdpbmdzIHdoZWF0IG9uIiwidmVydGljYWxfaWQiOi05OTksInZlcnRpY2FsX25hbWUiOiJhbGwifX0=&pickup=false"
             rel="noreferrer"
             target="_blank"
           >
             <img
-              src="https://res.cloudinary.com/dw8damfxa/image/upload/v1611387759/ABW/LOGOS/Doordash_yfdell.svg"
+              src={doordash}
               alt="doordash-logo"
               className="md-link-icon"
+              height={100}
+              width={200}
+              style={{ borderRadius: "10px" }}
+            />
+          </a>
+        </div>
+        <div className="md-link-box">
+          <a
+            className=""
+            href="https://www.ezcater.com/catering/pvt/americas-best-wings-4"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <img
+              src={ezcater}
+              alt="ezcater-logo"
+              className="md-link-icon"
+              height={100}
+              width={200}
+              style={{ borderRadius: "10px" }}
             />
           </a>
         </div>

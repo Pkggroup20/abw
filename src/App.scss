@@ -171,8 +171,10 @@ body {
   padding: 1em;
   box-sizing: border-box;
   color: white;
-  background: url("https://res.cloudinary.com/dw8damfxa/image/upload/v1611030037/ABW/hero-img.jpg")
-    center center no-repeat;
+  // background: url("https://res.cloudinary.com/dw8damfxa/image/upload/v1611030037/ABW/hero-img.jpg")
+  //   center center no-repeat;
+  // background-image: url("assets/hero.jpg");
+  background: url("assets/hero.jpg") center center no-repeat;
   background-size: cover;
 
   .hero-title {

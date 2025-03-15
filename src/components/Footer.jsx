@@ -1,24 +1,22 @@
 import React from "react";
+import abw from "../assets/abw-logo.png";
+import phone from "../assets/phone.png";
+import location from "../assets/location.png";
+import clock from "../assets/clock.png";
+import facebook from "../assets/facebook.png";
+import instagram from "../assets/instagram.png";
 
 const Footer = () => {
   return (
     <section id="contact" className="footer">
       <div className="footer-container">
         <div>
-          <img
-            src="https://res.cloudinary.com/dw8damfxa/image/upload/v1611387760/ABW/LOGOS/ABW_logo_e2szkq.svg"
-            alt="abw-logo"
-            srcSet=""
-          />
+          <img src={abw} alt="abw-logo" srcSet="" width={250} />
         </div>
 
         <div className="footer-info-box">
           <div>
-            <img
-              src="https://res.cloudinary.com/dw8damfxa/image/upload/v1611387761/ABW/LOGOS/phone_sgplhl.svg"
-              alt="phone"
-              className="footer-info-icons"
-            />
+            <img src={phone} alt="phone" className="footer-info-icons" />
           </div>
           <div>
             <a href="tel:(240)-833-8387">(240)-647-9453</a>
@@ -27,11 +25,7 @@ const Footer = () => {
 
         <div className="footer-info-box">
           <div>
-            <img
-              src="https://res.cloudinary.com/dw8damfxa/image/upload/v1611387761/ABW/LOGOS/map-pin_brzxls.svg"
-              alt="location"
-              className="footer-info-icons"
-            />
+            <img src={location} alt="location" className="footer-info-icons" />
           </div>
           <div>
             <a
@@ -47,11 +41,7 @@ const Footer = () => {
 
         <div className="footer-info-box">
           <div>
-            <img
-              src="https://res.cloudinary.com/dw8damfxa/image/upload/v1611387759/ABW/LOGOS/clock_edpsqw.svg"
-              alt="hours"
-              className="footer-info-icons"
-            />
+            <img src={clock} alt="hours" className="footer-info-icons" />
           </div>
           <div>
             <span>
@@ -75,7 +65,7 @@ const Footer = () => {
               target="_blank"
             >
               <img
-                src="https://res.cloudinary.com/dw8damfxa/image/upload/v1611387759/ABW/LOGOS/facebook_usetjm.svg"
+                src={facebook}
                 alt="facebook"
                 className="footer-info-icons"
                 style={{ marginTop: "9%", marginRight: "6%" }}
@@ -87,7 +77,7 @@ const Footer = () => {
               target="_blank"
             >
               <img
-                src="https://res.cloudinary.com/dw8damfxa/image/upload/v1611387759/ABW/LOGOS/instagram_vj6yts.svg"
+                src={instagram}
                 alt="instagram"
                 className="footer-info-icons"
                 style={{ marginTop: "9%", marginLeft: "6%" }}

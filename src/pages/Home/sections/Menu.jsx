@@ -12,7 +12,6 @@ import menu5 from "../../../assets/menu/menu5.png";
 import menu6 from "../../../assets/menu/menu6.jpg";
 import menu7 from "../../../assets/menu/menu7.jpg";
 import menu8 from "../../../assets/menu/menu8.png";
-import menu9 from "../../../assets/menu/menu9.jpg";
 
 const Menu = () => {
   return (
@@ -81,17 +80,7 @@ const Menu = () => {
             }}
           />
         </div>
-        <div className="box">
-          <img
-            src={menu9}
-            alt="pizza"
-            height={300}
-            width={500}
-            style={{
-              borderRadius: "16px",
-            }}
-          />
-        </div>
+
         <div className="box">
           <img
             src={menu2}

@@ -19,9 +19,7 @@ const ModalText = () => {
         rel="noreferrer"
         target="_blank"
       >
-        <button className="md-link-icon-clover">
-          ORDER ONLINE FOR PICKUP OR DELIVERY
-        </button>
+        <button className="md-link-icon-clover">ORDER ONLINE FOR PICKUP</button>
       </a>
       <div className="md-link">
         <div className="md-link-box">

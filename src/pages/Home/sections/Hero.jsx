@@ -20,7 +20,17 @@ export default function Hero() {
           WINGS WHEATON
         </span>
       </h1>
-      <p className="hero-info">
+      <p
+        className="hero-info"
+        style={{
+          // color: "#F5E900",
+          fontSize: "1.5rem",
+          fontWeight: "bold",
+          // textAlign: "center",
+          // width: "80%",
+          // margin: "0 auto",
+        }}
+      >
         Welcome to America's Best Wings. Come{" "}
         <span className="info-text-break">
           and try our best Wings, varieties of Seafood{" "}

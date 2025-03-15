@@ -19,7 +19,7 @@ const Footer = () => {
             <img src={phone} alt="phone" className="footer-info-icons" />
           </div>
           <div>
-            <a href="tel:(240)-833-8387">(240)-647-9453</a>
+            <a href="tel:(240)-833-8387">(240)-833-8387</a>
           </div>
         </div>
 
